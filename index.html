@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Population Education</title>
+    <link rel="stylesheet" href="st.css">
+</head>
+<body>
+
+<header>
+    <h1>Understanding World Population</h1>
+    <p>An interactive educational journey through past, present, and future population trends</p>
+</header>
+
+<section id="current-state">
+    <h2>Current State of World Population</h2>
+    <p>The world population currently stands at approximately <strong>8 billion</strong> people. Learn about the distribution of population across continents and countries.</p>
+    <a href="https://www.worldometers.info/world-population/" target="_blank">
+        <button>Learn More</button>
+    </a>
+    <div id="current-info" class="more-info">
+        <p>Key facts about population density, age distribution, and urbanization rates.</p>
+    </div>
+</section>
+
+<section id="historical-trends">
+    <h2>Historical Population Trends</h2>
+    <p>From 1 billion people in 1800 to 8 billion today, the growth of the human population has been exponential.</p>
+    <a href="https://en.m.wikipedia.org/wiki/Estimates_of_historical_world_population" target="_blank">
+        <button>Learn More</button>
+    </a>
+    <div id="historical-info" class="more-info">
+        <p>Explore the milestones in population growth over the centuries and the factors that influenced them.</p>
+    </div>
+</section>
+
+
+<section id="future-projections">
+    <h2>Future Population Projections</h2>
+    <p>By 2050, the population is expected to reach 9.7 billion, with varying growth rates across regions.</p>
+    <a href="https://en.m.wikipedia.org/wiki/Projections_of_population_growth" target="_blank">
+        <button>Learn More</button>
+    </a>
+    <div id="future-info" class="more-info">
+        <p>Insights into future projections, including the expected rise in life expectancy and changing demographics.</p>
+    </div>
+</section>
+
+<section id="challenges">
+    <h2>Key Issues & Challenges</h2>
+    <p>Population growth poses significant challenges for resources, sustainability, and development.</p>
+    <a href="https://www.unesco.org/en/key-challenges" target="_blank">
+        <button>Learn More</button>
+    </a>
+    <div id="challenges-info" class="more-info">
+        <p>Understand the impact of population on climate, food security, housing, and healthcare.</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 World Population Education. All rights reserved.</p>
+</footer>
+
+<script>
+    function showMoreInfo(id) {
+        const info = document.getElementById(id);
+        if (info.style.display === "block") {
+            info.style.display = "none";
+        } else {
+            info.style.display = "block";
+        }
+    }
+</script>
+
+</body>
+</html>
